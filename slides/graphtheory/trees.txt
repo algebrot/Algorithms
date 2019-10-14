@@ -1,0 +1,64 @@
+Trees are a special form of graph
+
+They come in directed and undirected flavors
+
+Definitions:
+An acyclic connected graph
+A connected graph with N-1 edges
+A graph in which any two vertices are connected by exactly one path
+
+
+Rooted trees
+
+
+child, parent
+
+root node
+
+Only the root node in a rooted tree doesn't have a parent, although sometimes it
+could be useful for the root node to have itself as a parent (e.g filesystem).
+
+leaf node - nodes with no children
+
+subtrees
+
+Binary tree is a tree for which every node has at most two child nodes
+
+(steal examples from binary tree slides)
+
+
+
+>>> Solve simple tree problem
+
+
+function Height(node):
+
+
+    public boolean isValidBST(TreeNode root) {
+        return validate(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+
+    public boolean validate(TreeNode node, long min, long max) {
+        // Reached bottom of tree
+        if (node == null) return true;
+        
+        // Verify invariant 
+        if (min >= node.val || max <= node.val) return false;
+        
+        return validate(node.left, min, node.val) && validate(node.right, node.val, max);
+    }
+
+
+Root tree:
+  select a node to be the root node
+  recursively do a BFS and attach children while making sure not to
+    point back to the parent
+  starting from any node 
+
+
+
+
+
+Reminder: Avatar tonight @ 6:30
+
+I'll be making some food if you want to spare yourself cooking :)

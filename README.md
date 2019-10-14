@@ -5,6 +5,11 @@
 
 Algorithms and data structures are amongst the most fundamental ingredients in the recipe for efficient code and good software design; knowledge of how to create and design excellent algorithms is an essential skill required in becoming an exemplary programmer. The goal of this repository is to demonstrate how to correctly implement the most common data structures and algorithms in the simplest and most elegant ways.
 
+# Contributing
+
+This repository is contribution friendly :smiley:. If you're an algorithms enthusiast and want to add or improve an algorithm your contribution is welcome! Please be sure to checkout the [Wiki](https://github.com/williamfiset/Algorithms/wiki) for instructions.
+
+
 # Data Structures
 * [:movie_camera:](https://www.youtube.com/watch?v=q4fnJZr8ztY)[Balanced Trees](https://github.com/williamfiset/algorithms/tree/master/com/williamfiset/algorithms/datastructures/balancedtree)
     * [Avl Tree (recursive)](https://github.com/williamfiset/algorithms/blob/master/com/williamfiset/algorithms/datastructures/balancedtree/AVLTreeRecursive.java)
@@ -76,7 +81,7 @@ Algorithms and data structures are amongst the most fundamental ingredients in t
 * [Convex polygon area](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/ConvexPolygonArea.java) **- O(n)**
 * [Convex polygon cut](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/ConvexPolygonCutWithLineSegment.java) **- O(n)**
 * [Convex polygon contains points](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/ConvexPolygonContainsPoint.java) **- O(log(n))**
-* [Coplanar points test (are four 3D points on the same plane)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/CoplanarPointsTest.java) **- O(1)**
+* [Coplanar points test (are four 3D points on the same plane)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/CoplanarPoints.java) **- O(1)**
 * [Line class (handy infinite line class)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/Line.java) **- O(1)**
 * [Line-circle intersection point(s)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/LineCircleIntersection.js) **- O(1)**
 * [Line segment-circle intersection point(s)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/geometry/LineSegmentCircleIntersection.js) **- O(1)**
@@ -202,10 +207,6 @@ Algorithms and data structures are amongst the most fundamental ingredients in t
 * [Manacher's algorithm (finds all palindromes in text)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/strings/ManachersAlgorithm.java) **- O(n)**
 * [Rabin-Karp algorithm (finds pattern matches in text)](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/strings/RabinKarp.java) **- O(n+m)**
 * [Substring verification with suffix array](https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/strings/SubstringVerificationSuffixArray.java) **- O(nlog(n)) SA construction and O(mlog(n)) per query**
-
-# Contributing
-
-This repository is contribution friendly :smiley:. If you're an algorithms enthusiast and want to add or improve an algorithm your contribution is welcome! Please be sure to checkout the [Wiki](https://github.com/williamfiset/Algorithms/wiki) for instructions.
 
 # License
 
